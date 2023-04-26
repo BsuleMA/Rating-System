@@ -18,6 +18,9 @@ body{
     font-family: 'Overpass', sans-serif;
     background-color: var(--VeryDarkBlue); 
     font-size: 15px; 
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
 }
 
 .rating-card, .thankyou-card{
@@ -25,7 +28,6 @@ body{
     width: 327px;
     height: 364px;
     border-radius: 16px;
-    margin: 195px auto 80px;
     padding: 24px;
 }
 
